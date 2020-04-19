@@ -504,3 +504,12 @@ html.map {
   margin: 0;
   padding: 0;
 }
+
+.slideshow {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.bx-wrapper img {
+  margin: 0 auto;
+}
