@@ -1,9 +1,18 @@
 /* style.css*/
 
-.container {
-  width: 100%;
+html.map {
+  height: 96%
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow {
+  max-width: 550px;
   margin: 0 auto;
-  overflow: hidden;
+}
+
+.bx-wrapper img {
+  margin: 0 auto;
 }
 
 nav {
@@ -52,12 +61,35 @@ nav ul li a:hover {
   color: silver;
 }
 
+#map {
+  height: 100%;
+}
+
+body.map {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body.resume {
   margin: 0;
   padding: 0;
   border: 0;
   background: #cafaf8;
   font-family: 'Acme', sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 div,
@@ -497,19 +529,4 @@ div#paws .section p {
 
 div.clear {
   clear: both;
-}
-
-html.map {
-  height: 96%
-  margin: 0;
-  padding: 0;
-}
-
-.slideshow {
-  max-width: 550px;
-  margin: 0 auto;
-}
-
-.bx-wrapper img {
-  margin: 0 auto;
 }
