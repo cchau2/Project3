@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	  <title>ITMD361 Cynthia Chau Project2</title>
+	  <link rel="stylesheet" type="text/css" href="css/reset.css">
+	  <link rel="stylesheet" type="text/css" href="styles.css">
+	  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+  </head>
+  <body>
+	<nav>
+	  <div id="navbar-container">
+		<ul>
+		  <li><a href="index.html">Resume Page</a></li>
+		  <li><a href="jamaica.html">Jamaica Resort Page</a></li>
+		  <li><a href="paws.html">PAWS Animal Shelter Page</a></li>
+		</ul>
+	  </div>
+	</nav>	
+	<div id="infobox" class="container">
+	  <div>
+		<h1>PAWS Animal Shelter 2019</h1>
+		<p>My coworkers and I volunteered at PAWS Chicago Animal Shelter.</p>
+		<p>We cleaned, organized shipment of donated animal food, and met some adorable cats and dogs.</p>
+	  </div>
+	  <section class="section">
+		<h3>PAWS' Mission</h3>
+		<p>* Build No Kill communities that respect and respect and value the life of every cat and dog.</p>
+		<p>* End the overpopulation of homeless animals through solutions, practices, and education.</p>
+	  </section>
+	  <div class="clear"></div>
+	  <section class="section2">
+		<h2>Breeds of Cats</h2>
+		<div class="row">
+		  <figure>
+		    <img src="images/paws/paws_cats.jpg" alt="Cats">
+		  </figure>
+		  <ul>
+			<li class="Breeds of Cats">Domestic Shorthair</li>
+			<li class="Breeds of Cats">Domestic Medium Hair</li>
+			<li class="Breeds of Cats">Domestic Longhair</li>
+		  </ul>
+		</div>
+		<div class="row">
+	  </section>
+	  <section class="section3">
+		<h2>Breeds of Dogs</h2>
+		<div class="row">
+		  <figure>
+			<img src="images/paws/paws_dogs.jpg" alt="Dogs">
+		  </figure>
+		  <ul>
+			<li class="Breeds of Dogs">Boxer Mix</li>
+			<li class="Breeds of Dogs">Retriever, Labrador/Mix>
+			<li class="Breeds of Dogs">Mountain Cur/Mix>
+			<li class="Breeds of Dogs">Jack Russell Terrier Mix>
+			<li class="Breeds of Dogs">Chihuahua/Mix>
+			<li class="Breeds of Dogs">Pug/Beagle>
+			<li class="Breeds of Dogs">Hound/Shepherd Mix or Hound/Mix>
+			<li class="Breeds of Dogs">Pinscher, Miniature/Mix>
+			<li class="Breeds of Dogs">Shepherd or Shepherd Mix>
+			<li class="Breeds of Dogs">And more!!>
+		  </ul>			
+		</div>
+	  </section>
+	  <div class="row">
+		<p>Ranges from kitten to core foster to advanced foster</p>
+		<p>Ranges from all ages</p>
+		
+		<h3>"EVERY LIFE COUNTS."</h3>
+		<h3>"Once safe at PAWS Chicago, every pet is treated as an individual and guaranteed life, no matter where they come from and what they need."</h3>
+		<h3>- PAWS Chicago</h3>
+		<p>There are so many cats and dogs born but so few are adopted. Thousands of pets are in shelters that are waiting for a home.</p>
+		<p>For more information on pets fostering or adoption, please visit: <a href=http://www.pawschicago.org>www.pawschicago.org</a></p>
+	  </div>
+	</div>
+</body>
+</html>
