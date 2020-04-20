@@ -175,7 +175,7 @@ li.mail {
   background: url('../images/mail.jpg') no-repeat;
   background-position: 3em;
   font-size: 1.1em;
-  padding-right: 0 0;
+  padding-right: 0em;
   padding-top: .3em;
   padding-bottom: .4em;
   text-decoration: none;
@@ -191,7 +191,7 @@ li.github {
   background: url('../images/github.png') no-repeat;
   background-position: 3em;
   font-size: 1.1em;
-  padding-right: 0 0;
+  padding-right: 0em;
   padding-top: .2em;
   padding-bottom: .2em;
   text-decoration: none;
@@ -356,7 +356,7 @@ div#jamaica h2 {
   text-align: center
 }
 
-div#jamaica section p {
+div#jamaica section h6 {
   color: #eb7d00;
   font-size: 1.1em;
   font-weight: bold;
@@ -372,6 +372,17 @@ div.row1 p {
   font-family: 'Bebas Neue', cursive;
   text-align: center;
   margin-top: .5em;
+}
+
+div.row2 h6 {
+  color: #006ae3;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  margin-left: -40px;
+  margin-top: 40px;
+  margin-bottom: -30px;
 }
 
 div.row2 p {
@@ -406,12 +417,6 @@ div.row4 p {
 
 #jamaica {
   width: 95%; margin: 5% auto;
-}
-
-div#jamaica .row {
-  margin: center;
-  padding-top: 2em;
-  padding-bottom: 2em;
 }
 
 div#jamaica div.clear {
@@ -560,7 +565,7 @@ div#paws .section4 h3 {
   text-align: center;
 }
   
-div#paws .section5 p {
+div#paws .section4 p {
   text-align: center;
   color: #000000;
   font-family: 'Bebas Neue', cursive;

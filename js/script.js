@@ -1,13 +1,19 @@
 function initMap() {
-  var bridgeport = {lat: 41.836408, lng: -87.648167};
-  var map = new google.maps.Map(
-      document.getElementById('map'), {
+  var iit_tower = {lat: 41.831602, lng: -87.627231};
+  var map = new google.maps.Map(document.getElementById('map'), {
 		  zoom: 18, 
-		  center: bridgeport,
+		  center: iit_tower,
 	      mapTypeId: 'satellite'
 	  });
-  var marker = new google.maps.Marker({position: bridgeport, map: map});
+  var marker = new google.maps.Marker({position: iit_tower, map: map});
+  
+  google.maps.event.addListener(marker, 'mouseover', function() {
+	  infowindow.open(myMap, marker);
+});
+
 }
+
+google.maps.addDomListener(window, 'load', init);
 
 //Slideshow//////
 var slides = 0;
