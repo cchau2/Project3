@@ -6,22 +6,17 @@ html.map {
   padding: 0;
 }
 
-.slideshow {
-  max-width: 550px;
-  margin: 0 auto;
-}
-
 .bx-wrapper img {
   margin: 0 auto;
 }
 
 nav {
   font-family: 'Rancho', cursive;
-  font-size: 1.2em;
+  font-size: 1.3em;
   width: 100%;
-  height: 3em;
+  height: 2em;
   background-color: #454f4f;
-  margin-top: -1em;
+  margin-top: 0em;
 }  
 
 #navbar-container {
@@ -54,11 +49,11 @@ nav ul li a {
 } 
 
 nav ul li a:hover {
-  color: #fadd84;
+  color: #ffd042;
 }  
 
-#navbar-container #onpage {
-  color: silver;
+#navbar-container #onpage a {
+  color: #ffd042;
 }
 
 #map {
@@ -104,19 +99,21 @@ video {
 div#resume h1 {
   font-size: 2.6em;
   color: #1237db;
-  margin-top: -.10em;
-  padding-bottom: .5em;
+  margin-top: 1.5em;
+  margin-left: 1.2em;
+  padding-bottom: .3em;
 }
 
 div#resume h2 {
   font-size: 1.8em;
   color: #1237db;
-  margin-top: 0;
+  margin-top: 0em;
   padding-bottom: .3em;
 }
 
-div#resume h4 {
-  font-size: 1.2em;
+div#resume h3 {
+  font-size: 1.3em;
+  color: #000000;
   padding-top: .3em;
   padding-bottom: .3em;
 }
@@ -157,16 +154,15 @@ ul.bullet li::before {
 }*/
 
 li.location {
-  background: url('images/location.jpg') no-repeat left top;
-  background-position: .4% .95em;
+  background: url('../images/location.jpg') no-repeat;
+  background-position: 3.2em;
   font-size: 1.1em;
   padding-right: 1.8em;
+  padding-top: .5em;
   text-decoration: none;
-  list-style-type: none;
-  padding-top: 1em;
-	padding-bottom: .6em;
-	text-align: left;
-	text-indent: 4%;
+  padding-bottom: .4em;
+  text-align: left;
+  text-indent: 4.6em;
 }
 
 li.location a:hover {
@@ -174,15 +170,15 @@ li.location a:hover {
 }
 
 li.mail {
-  background: url('images/mail.jpg') no-repeat left top;
-  background-position: 0% 0em;
+  background: url('../images/mail.jpg') no-repeat;
+  background-position: 3em;
   font-size: 1.1em;
-  padding-right: 1.8em;
+  padding-right: 0 0;
+  padding-top: .3em;
+  padding-bottom: .4em;
   text-decoration: none;
-  list-style-type: none;
-  padding-bottom: .6em;
   text-align: left;
-  text-indent: 4.8%;
+  text-indent: 4.6em;
 }
 
 li.mail a:hover {
@@ -190,15 +186,15 @@ li.mail a:hover {
 }
 
 li.github {
-  background: url('images/github.png') no-repeat left top;
-  background-position: 0% 0em;
+  background: url('../images/github.png') no-repeat;
+  background-position: 3em;
   font-size: 1.1em;
-  padding-right: 1.8em;
+  padding-right: 0 0;
+  padding-top: .2em;
+  padding-bottom: .2em;
   text-decoration: none;
-  list-style-type: none;
-  padding-bottom: .6em;
   text-align: left;
-  text-indent: 4.8%;
+  text-indent: 4.6em;
 }
 
 li.github a:hover {
@@ -210,17 +206,17 @@ li.github a:hover {
   color: black;
 }
 .a_underline {
-	text-decoration: none;
-	color: silver;
+  text-decoration: none;
+  color: silver;
 }
 
 #infobox {
   box-sizing: border-box;
   box-shadow: 0 0 .625em 0 rgba(0, 0, 0, .15), 0 .125em .1875em 0 rgba(0, 0, 0, .2);
-  margin-top: 3%;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%;
+  margin-top: 3em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
   border: .125em;
   padding: 0%;
   padding-right: 0%;
@@ -234,7 +230,7 @@ li.github a:hover {
   box-shadow: 0 0 .0625em 0 rgba(0, 0, 0, .15), 0 .125em .1875em 0 rgba(0, 0, 0, .2);
   border: .125em;
   border-right: 1em;
-  margin-right: 0%;
+  margin-right: 0em;
   padding: 5.5%;
   background-color: #ebf0f0;
 }
@@ -255,16 +251,16 @@ div.infobox p {
   overflow: hidden;
   width: 18em;
   height: 17em;
-  margin-top: 2em;
+  margin-top: 1.6em;
 }
 
 #borderbox1 {
   box-sizing: border-box;
   box-shadow: 0 0 .0625em 0 rgba(0, 0, 0, .15), 0 .125em .1875em 0 rgba(0, 0, 0, .2);
-  margin-top: 1%;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%;
+  margin-top: 1em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
   border: .125em;
   padding: 2.5%;
   background-color: #ebf0f0;
@@ -273,10 +269,10 @@ div.infobox p {
 #borderbox2 {
   box-sizing: border-box;
   box-shadow: 0 0 .0625em 0 rgba(0, 0, 0, .15), 0 .125em .1875em 0 rgba(0, 0, 0, .2);
-  margin-top: 1%;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%;
+  margin-top: 1em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
   border: .125em;
   padding: 2.5%;
   background-color: #ebf0f0;
@@ -285,10 +281,10 @@ div.infobox p {
 #borderbox3 {
   box-sizing: border-box;
   box-shadow: 0 0 .0625em 0 rgba(0, 0, 0, .15), 0 .125em .1875em 0 rgba(0, 0, 0, .2);
-  margin-top: 1%;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%;
+  margin-top: 1em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
   border: .125em;
   padding: 2.5%;
   background-color: #ebf0f0;
@@ -318,21 +314,21 @@ div.infobox p {
   background-color: #ebf0f0;
 }
 
-body.jamaica {
-  color: #eb7d00;
-  font-family: 'Bebas Neue', cursive;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: #f5f5f2;
-}
-
 div#jamaica,
 img,
 embed,
 object {
   max-width: 100%;
   height: auto;
+}
+
+body.jamaica {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #f5f5f2;
+  font-family: 'Bebas Neue', cursive;
+  color: #eb7d00;
 }
 
 div.video {
@@ -349,44 +345,51 @@ div.video {
 }
 
 div#jamaica h2 {
-  font-size: 1.8em;
   color: #1237db;
+  font-size: 1.8em;
   font-weight: 600;
+  font-family: 'Bebas Neue', cursive;
   padding-top: 1.5em;
   padding-bottom: .2em;
   text-align: center
 }
 
-div#jamaica p {
+div#jamaica section p {
+  color: #eb7d00;
   font-size: 1.1em;
   font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
   text-align: center;
+  margin-top: 1.5em;
 }
 
-div.row1 {
+div.row1 p {
+  color: #eb7d00;
   font-size: 1.1em;
   font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
   text-align: center;
-  margin-left: -25px;
-  margin-top: -30px;
+  margin-top: .5em;
 }
 
-div.row2 {
+div.row2 p {
+  color: #006ae3;
   font-size: 1.1em;
   font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
   text-align: center;
   margin-left: -40px;
   margin-top: 40px;
-  margin-bottom: 50px;
+  margin-bottom: -30px;
 }
 
-div.row3 {
+div.row3 p {
+  color: #eb7d00;
   font-size: 1.1em;
   font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
   text-align: center;
-  text-indent: 5em;
-  margin-left: -70px;
-  margin-top: 40px;
+  margin-top: 70px;
   margin-bottom: 50px;
 }
 
@@ -394,7 +397,9 @@ div.row4 p {
   color: #1237db;
   font-size: 0.75em;
   font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
   text-align: center;
+  margin-top: .5em;
 }
 
 #jamaica {
@@ -402,7 +407,7 @@ div.row4 p {
 }
 
 div#jamaica .row {
-  margin: auto;
+  margin: center;
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -411,15 +416,24 @@ div#jamaica div.clear {
   clear: both;
 }
 
-div#jamaica ul.polaroids li {
-  display: inline;
-}
-
 div#jamaica .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 75%;
+}
+
+div#jamaica ul.polaroids { 
+  display: block;
+  margin-left: 14em;
+  margin-top: 2em;
+}
+
+div#jamaica ul.polaroids li {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+  padding-left: 0;
 }
 
 div#jamaica ul.polaroids a {
@@ -430,15 +444,20 @@ div#jamaica ul.polaroids a {
   width: auto;
   padding: .625em .625em .9375em;
   text-align: center;
-  font-family: 'Acme', cursive;
+  font-family: 'Bebas Neue', cursive;
   text-decoration: none;
   color: #333;
   font-size: 1.125em;
   -webkit-box-shadow: 0 .1875em .375em rgba(0,0,0,.25);
-  -moz-box-shadow: 0 .1875em .375em rgba(0,0,0,.25); 
+  -moz-box-shadow: 0 .1875em .375em rgba(0,0,0,.25);
+  -webkit-transform: rotate(-2deg); 
+  -webkit-transition: 
+  -webkit-transform .15s linear; 
+  -moz-transform: rotate(-2deg);   
 }
 
 div#jamaica ul.polaroids img {
+  margin: 0 auto;
   display: block;
   margin-bottom: .75em;
   width: 20em;
@@ -446,6 +465,20 @@ div#jamaica ul.polaroids img {
 
 div#jamaica ul.polaroids a:after {
   content: attr(title); 
+}
+
+div#jamaica ul.polaroids li:nth-child(even) a { 
+  -webkit-transform: rotate(2deg);  
+  -moz-transform: rotate(2deg); 
+}
+
+div#jamaica ul.polaroids li a:hover { 
+  -webkit-transform: scale(1.10); 
+  -moz-transform: scale(1.10); 
+  -webkit-box-shadow: 0 .1875em .375em rgba(0,0,0,.5); 
+  -moz-box-shadow: 0 .1875em .375em rgba(0,0,0,.5); 
+  position: relative; 
+  z-index: 5; 
 }
 
 body.paws {
@@ -457,74 +490,81 @@ body.paws {
   background: #c2bec0;
 }
 
-div#paws .section {
-  float: right;
-  margin-top: 8em;
-  margin-right: 17em;
+div#paws h1 {
+  color: #f00c9c;
+  font-size: 2em;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 1.5em;
+  padding-bottom: .2em;
+  text-align: center;
+}
+
+div#paws p {
+  color: #000000;
+  font-size: 1.3em;
+  font-family: 'Acme', cursive;
+  margin-top: .8em;
+  text-align: center;
+}
+
+div#paws .section h3 {
+  color: #1237db;
+  font-family: 'Rancho', cursive;
+  font-size: 1.7em;
+  margin-top: 2em;
+  text-align: center;
+}
+	
+div#paws .section2 h2 {
+  text-align: center;
+  color: #118c36;
+  font-family: 'Rancho', cursive;
+  font-size: 30px;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: .5em;
 }
 
 div#paws .section2 {
   float: left;
   margin-top: 2em;
-  margin-left: 15em;
+  margin-left: 30em;
+}
+
+div#paws .section3 h2 {
+  text-align: center;
+  color: #118c36;
+  font-family: 'Rancho', cursive;
+  font-size: 30px;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 4em;
+  margin-bottom: .5em;
 }
 
 div#paws .section3 {
   float: left;
   margin-top: 2em;
-  margin-left: 15em;
+  margin-left: 10em;
 }
 
-body.paws {
-  font-family: 'Just Another Hand', cursive;
-  color: #1d2324;
-  width: 300px;
-  height: 50px;	
-}
-
-div#paws .row figure {
-  margin: auto;
-  border: 1px solid black;
-  border-radius: 1em;
-  margin-bottom: 1em;
-  vertical-align: middle;
-  text-align: center;
-  background-color: #fff5f5;
-  font-family: 'Just Another Hand', cursive;
-}
-
-div#paws h1 {
-  text-align: center;
-  color: #f00c9c;
-  font-family: 'Bebas Neue', cursive;
-}
-
-div#paws h2 {
-  text-align: center;
-  color: #02b558;
-  font-family: 'Rancho', cursive;
-  font-size: 30px;
-}
-
-div#paws h3 {
-  text-align: center;
+div#paws .section4 h3 {
   color: #0020f0;
   font-family: 'Rancho', cursive;
-  font-size: 30px;
+  font-size: 1.7em;
+  margin-top: 25em;
+  margin-bottom: -24em;
+  text-align: center;
 }
-
-div#paws p {
+  
+div#paws .section5 p {
   text-align: center;
   color: #000000;
-  font-family: 'Acme', cursive;
-  font-size: 19px;
-}
-
-div#paws .section p {
-  text-align: center;
-  color: #000000;
-  font-family: 'Acme', cursive;
-  font-size: 19px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.1em;
+  margin-top: 42em;
+  margin-bottom: 3em;
 }
 
 div.clear {

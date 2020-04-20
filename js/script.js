@@ -8,19 +8,19 @@ var locations = [
 ];
 
 var longNames = [
-  'IIT Tower Building'
-  'IIT's The Bog'
-  'Royal Decameron Montego Beach Resort'
-  'Royalton White Sands Resort'
-  'PAWS Chicago'
-  'PAWS Chicago Training Center'
+  'IIT Tower Building',
+  'IIT's The Bog',
+  'Royal Decameron Montego Beach Resort',
+  'Royalton White Sands Resort',
+  'PAWS Chicago',
+  'PAWS Chicago Training Center',
 ];
 
 var redshirt = {lat: 41.2227041, lng: -112.0427138};
 var map;
-var iit = 'images/iit.jpg';
-var jamaicaflag = 'images/jamaica/jamaicaflag.jpg';
-var catdog = 'images/paws/catdog.jpg';
+var iit = '../images/iit.jpg';
+var jamaicaflag = '../images/jamaica/jamaicaflag.jpg';
+var catdog = '../images/paws/catdog.jpg';
 var markers = [];
 
 function initMap() {
