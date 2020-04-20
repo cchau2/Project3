@@ -6,14 +6,7 @@ function initMap() {
 	      mapTypeId: 'satellite'
 	  });
   var marker = new google.maps.Marker({position: iit_tower, map: map});
-  
-  google.maps.event.addListener(marker, 'mouseover', function() {
-	  infowindow.open(myMap, marker);
-});
-
 }
-
-google.maps.addDomListener(window, 'load', init);
 
 //Slideshow//////
 var slides = 0;
