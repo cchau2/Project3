@@ -1,13 +1,15 @@
 /* style1.css*/
 
-html.map {
-  height: 96%
-  margin: 0;
-  padding: 0;
+div#map{
+  border-radius: 0em;
+  width: 100%;
+  height: 800px;
 }
 
-.bx-wrapper img {
-  margin: 0 auto;
+img.slide_image{
+  border-radius: 0em;
+  width: 100%;
+  height: 500px;
 }
 
 nav {

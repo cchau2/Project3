@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html class="map" lang="en">
+<html lang="en">
   <head>
-    <title>Simple Map</title>
-    <meta name="viewport" content="initial-scale=1.0">
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvNFoc7wOH7ZOTpdLlOePiZaa9x_G8KGE&callback=initMap" async defer></script>
-	<script src="js/script.js"></script>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0">
+      <title>Google Maps</title>
+	  <link rel="stylesheet" type="text/css" href="css/reset.css">
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+	  <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+	  <script src="js/script.js"></script>
   </head>
-  <body class="map">
+  <body>
     <div>
 	  <nav id="navbar-container">
 		<ul>
@@ -24,6 +21,12 @@
 	  </nav>
 	</div>
     <div id="map"></div>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMFUxKOb0Npe9Klgrl6JuAWr71FzXghg0&callback=initMap">
+	</script>
+    <!-- Added Map Marker, Satellite Mode, and rounded out map. Had trouble adding anything else in because of the billing setup requirement.-->
+
+    <!--Slideshow-->
+    <img src="images/chicago.jpg" class="slide_image" id="slide_image" alt="Images of Chicago" />
 
   </body>
 </html>
