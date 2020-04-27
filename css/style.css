@@ -374,19 +374,8 @@ div.row1 p {
   margin-top: .5em;
 }
 
-div.row2 h6 {
-  color: #006ae3;
-  font-size: 1.1em;
-  font-weight: bold;
-  font-family: 'Bebas Neue', cursive;
-  text-align: center;
-  margin-left: -40px;
-  margin-top: 40px;
-  margin-bottom: -30px;
-}
-
-div.row2 p {
-  color: #006ae3;
+div.row3 h6 {
+  color: #333;
   font-size: 1.1em;
   font-weight: bold;
   font-family: 'Bebas Neue', cursive;
@@ -397,6 +386,17 @@ div.row2 p {
 }
 
 div.row3 p {
+  color: #333;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  margin-left: -40px;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+
+div.row4 p {
   color: #eb7d00;
   font-size: 1.1em;
   font-weight: bold;
@@ -406,7 +406,7 @@ div.row3 p {
   margin-bottom: 50px;
 }
 
-div.row4 p {
+div.row2 p {
   color: #1237db;
   font-size: 0.75em;
   font-weight: bold;
@@ -432,8 +432,8 @@ div#jamaica .center {
 
 div#jamaica ul.polaroids { 
   display: block;
-  margin-left: 14em;
-  margin-top: 2em;
+  margin-left: 8em;
+  margin-top: 3em;
 }
 
 div#jamaica ul.polaroids li {
@@ -447,11 +447,12 @@ div#jamaica ul.polaroids a {
   background: #ffffff;
   display: inline;
   float: left;
-  margin: 0 0 1.6875em 3.875em;
+  margin: 0 0 1.6875em 1.875em;
   width: auto;
   padding: .625em .625em .9375em;
   text-align: center;
   font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
   text-decoration: none;
   color: #333;
   font-size: 1.125em;
@@ -460,14 +461,14 @@ div#jamaica ul.polaroids a {
   -webkit-transform: rotate(-2deg); 
   -webkit-transition: 
   -webkit-transform .15s linear; 
-  -moz-transform: rotate(-2deg);   
+  -moz-transform: rotate(-2deg);  
 }
 
 div#jamaica ul.polaroids img {
   margin: 0 auto;
   display: block;
   margin-bottom: .75em;
-  width: 20em;
+  width: 325px;
 }	
 
 div#jamaica ul.polaroids a:after {
@@ -528,15 +529,29 @@ div#paws .section2 h2 {
   font-family: 'Rancho', cursive;
   font-size: 30px;
   margin-top: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
   margin-bottom: .5em;
 }
 
 div#paws .section2 {
   float: left;
   margin-top: 2em;
-  margin-left: 30em;
+  margin-left: 28em;
+}
+
+div#paws .section2 img {
+  border-radius: 8px;
+  width: 200px;
+}
+
+div#paws .section2 ul li {
+  margin-left: 13em;
+}
+
+div#paws .section3 img {
+  border-radius: 8px;
+  width: 200px;
 }
 
 div#paws .section3 h2 {
@@ -545,23 +560,31 @@ div#paws .section3 h2 {
   font-family: 'Rancho', cursive;
   font-size: 30px;
   margin-top: 1em;
-  margin-left: 1em;
-  margin-right: 4em;
+  margin-left: .2em;
   margin-bottom: .5em;
+}
+
+div#paws .section3 img {
+  border-radius: 8px;
+  width: 200px;
 }
 
 div#paws .section3 {
   float: left;
   margin-top: 2em;
-  margin-left: 10em;
+  margin-left: 28em;
+}
+
+div#paws .section3 ul li {
+  margin-left: 13em;
 }
 
 div#paws .section4 h3 {
   color: #0020f0;
   font-family: 'Rancho', cursive;
   font-size: 1.7em;
-  margin-top: 25em;
-  margin-bottom: -24em;
+  margin-top: 45em;
+  margin-bottom: -45em;
   text-align: center;
 }
   
@@ -570,7 +593,7 @@ div#paws .section4 p {
   color: #000000;
   font-family: 'Bebas Neue', cursive;
   font-size: 1.1em;
-  margin-top: 42em;
+  margin-top: 72em;
   margin-bottom: 3em;
 }
 
